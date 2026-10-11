@@ -18,7 +18,7 @@ The exercises are based on practical examples and learning resources such as SQL
 
 ```text
 sql-practice/
-└── SQLBolt/
+└── SQLBolt - 01/
     ├── movies_boxoffice.sql
     ├── movies.db
     └── README.md
