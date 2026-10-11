@@ -48,6 +48,12 @@ VALUES
     (2, 7.2, 162798565, 200600000),
     (13, 7.2, 237283207, 301700000);
 
+--Practice query: total number of movies directed by each director
+SELECT count(title) as "Number of Directed Movies", director 
+FROM movies
+GROUP BY director
+ORDER BY director ASC;
+
 -- Practice query: total sales by director
 SELECT
     movies.director,
@@ -57,4 +63,3 @@ INNER JOIN Boxoffice
     ON movies.id = Boxoffice.movie_id
 GROUP BY movies.director
 ORDER BY total_sales DESC;
-
