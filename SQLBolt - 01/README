@@ -1,0 +1,11 @@
+Files
+SQLBolt - 01.sql – SQL commands used to create and populate the practice tables.
+movies.db – SQLite database containing the movie and box office data.
+Tasks and Learning Objectives
+Database creation: Create tables and define their columns.
+Data insertion: Insert movie and box office records into the database.
+Data retrieval: Use SELECT to retrieve data from tables.
+Filtering and sorting: Practise filtering records and ordering query results.
+JOIN operations: Combine related data from the movies and Boxoffice tables.
+Aggregation: Practise summarising data using aggregate functions.
+Data relationships: Understand how information stored in separate tables can be combined.
